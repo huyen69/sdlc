@@ -219,9 +219,6 @@ tr:hover {
                 <a class="text" href="manage_students.php">Quản Lý Sinh Viên</a>
             </div>
             <div class="item">
-                <a class="text" href="add_student.php">Thêm sinh viên</a>
-            </div>
-            <div class="item">
                 <a class="text" href="manage_classes.php">Quản lý lớp học</a>
             </div>
             <div class="item">
@@ -230,9 +227,12 @@ tr:hover {
             <div class="item">
                 <a class="text" href="manage_teachers.php">Quản lý giáo viên</a>
             </div>
+             <div class="item">
+              <a class="text" href="student_detail.php?id=1">Xem Chi Tiết Sinh Viên</a>
+            </div> 
             <div class="item">
-                <a class="text" href="student_detail.php?id=1">Xem Chi Tiết Sinh Viên</a>
-            </div>
+              <a class="text" href="login-logout/logout.php">Đăng xuất</a>
+            </div> 
         </div>
         <div class="container">
             <div>

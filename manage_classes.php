@@ -24,6 +24,7 @@ if (isset($_POST['course_id']) && isset($_POST['class_id'])) {
                      JOIN courses ON students.course_id = courses.course_id 
                      JOIN teachers ON teachers.class_id = classes.class_id AND teachers.course_id = courses.course_id
                      WHERE students.class_id = $class_id AND students.course_id = $course_id";
+                     
     $students = $conn->query($students_sql);
 }
 ?>
